@@ -1,65 +1,270 @@
-{
-  "status": "active",
-  "key": "ammar",
-  "expiry": 1766778117,
-  "patterns": [
-    "F3 0F 1E F8" "F3 07 42 F8" "FD 7B C1 A8" "F4 4F 41 A9" "F5 07 43 F8"
-"FD 7B 42 A9" "F4 03 01 AA" "F4 4F 01 A9" "FD 7B 02 A9" "F5 0F 1D F8"
-"F6 57 C3 A8" "F6 57 BD A9" "FD 7B 45 A9" "F4 4F 44 A9" "F4 4F BE A9"
-"F4 4F C2 A8" "FD 7B 01 A9" "FD 7B 41 A9" "FC 6F 01 A9" "FA 67 02 A9"
-"F8 5F 03 A9" "F6 57 04 A9" "F4 4F 05 A9" "FD 7B 06 A9" "FD 7B 46 A9"
-"F4 4F 45 A9" "F5 23 40 F9" "F5 03 00 AA" "F8 5F 43 A9" "F6 57 44 A9"
-"FA 67 42 A9" "F6 57 01 A9" "FD 7B 03 A9" "FD 7B 43 A9" "F4 4F 42 A9"
-"F6 57 41 A9" "F4 4F 0C A9" "FD 7B 0D A9" "F6 57 0B A9" "F7 0F 1C F8"
-"F4 4F 02 A9" "FD 7B BF A9" "F0 7B BF A9" "F8 5F 41 A9" "F6 57 42 A9"
-"FA 67 C5 A8" "FD 7B 44 A9" "F4 4F 51 A9" "F6 57 50 A9" "F8 5F 4F A9"
-"FA 67 4E A9" "FC 6F 4D A9" "FC 6F 08 A9" "FA 67 09 A9" "F8 5F 0A A9"
-"F3 53 40 A9" "F4 03 00 AA" "F5 7B 01 A9" "F3 7B 00 A9" "FE 13 40 F9"
-"F5 5B 41 A9" "FA 03 00 AA" "FE 23 40 F9" "F9 6B 43 A9" "F7 63 42 A9"
-"F5 5B 01 A9" "F6 03 02 AA" "02 28 46 F9" "F7 63 02 A9" "F9 6B 03 A9"
-"FE 23 00 F9" "F7 03 03 AA" "F3 53 42 A9" "F5 5B 43 A9" "F7 63 44 A9"
-"F9 6B 45 A9" "FB 73 46 A9" "FE 3B 40 F9" "F7 63 04 A9" "F9 6B 05 A9"
-"FB 73 06 A9" "F3 53 02 A9" "FE 3B 00 F9" "FC 03 03 2A" "F7 03 04 AA"
-"F8 03 05 AA" "FE 03 00 F9" "E1 0F 00 F9" "6D 8F FF 97" "E1 0F 40 F9"
-"FE 03 40 F9" "F5 5B 03 A9" "FE 0B 40 F9" "FE 0B 00 F9" "FC 07 44 F8"
-"C0 03 5F D6" "FC 0F 1B F8" "F8 5F 01 A9" "F6 57 02 A9" "F4 4F 03 A9"
-"FD 7B 04 A9" "FD 03 01 91" "FF 03 31 D1" "88 04 00 F1" "F5 03 04 AA"
-"F4 03 02 AA" "F6 03 01 2A" "1F 09 00 F1" "F3 03 00 AA" "FB 73 04 A9"
-"FA 03 19 AA" "FA 67 BB A9" "FD 7B C2 A8" "F1 FF FF 17" "F3 0B 40 F9"
-"FD 7B BD A9" "04 00 80 92" "FD 03 00 91" "F3 53 01 A9" "F7 03 00 AA"
-"F8 03 00 AA" "F9 07 45 F8" "FC 03 13 AA" "F7 03 1F AA" "FD 7B BE A9"
-"F5 5B 02 A9" "F6 03 01 AA" "F3 53 41 A9" "F5 5B 42 A9" "F7 63 43 A9"
-"F9 23 40 F9" "FD 7B C6 A8" "FD 7B BB A9" "53 04 40 F9" "F7 63 03 A9"
-"F9 23 00 F9" "F9 03 01 AA" "F5 03 02 AA" "F8 5F BC A9" "F3 03 02 AA"
-"FC 6F BA A9" "FA 67 01 A9" "F8 5F 02 A9" "F6 57 03 A9" "F4 4F 04 A9"
-"FD 7B 05 A9" "FD 7B C3 A8" "FD 7B B8 A9" "FC 57 41 A9" "F5 03 01 2A"
-"FF 83 02 D1" "FC 6F 04 A9" "FA 67 05 A9" "F8 5F 06 A9" "F6 57 07 A9"
-"F4 4F 08 A9" "FD 7B 09 A9" "F7 0B 40 F9" "F4 4F 43 A9" "FD 7B C4 A8"
-"FA 03 1F AA" "FD 7B BA A9" "F3 03 03 AA" "F7 03 05 2A" "F8 FC FF 97"
-"F6 03 00 AA" "F6 AF 01 F9" "FD 43 01 91" "FF C3 0A D1" "F5 0B 40 F9"
-"F4 4F 59 A9" "F6 57 58 A9" "F8 5F 57 A9" "FA 67 56 A9" "FC 6F 55 A9"
-"FD 7B 54 A9" "FF 83 06 91" "FF 43 02 D1" "F3 03 1F AA" "F4 4F 49 A9"
-"FD 7B 48 A9" "FF 83 02 91" "FF C3 02 D1" "F4 4F 0A A9" "FD 43 02 91"
-"81 02 00 B4" "E0 03 01 AA" "F3 03 01 AA" "FC 6F 06 A9" "FA 67 07 A9"
-"F8 5F 08 A9" "F6 57 09 A9" "F4 4F 4A A9" "FD 7B 49 A9" "FF C3 02 91"
-"FD 7B BC A9" "F7 0B 00 F9" "F4 03 03 AA" "F4 0F 00 B9" "B7 05 00 94"
-"FB 03 00 AA" "F6 57 49 A9" "F8 5F 48 A9" "FA 67 47 A9" "FC 6F 46 A9"
-"FF 03 02 D1" "F6 57 06 A9" "F4 4F 07 A9" "F5 33 00 F9" "FF 03 02 91"
-"F5 33 40 F9" "F4 4F 47 A9" "F3 0B 00 F9" "FB 0B 00 F9" "F7 03 01 AA"
-"FD 43 00 91" "F7 06 00 91" "F6 57 48 A9" "F8 5F 47 A9" "FA 67 46 A9"
-"FC 6F 45 A9" "F5 CF 00 A9" "42 00 00 94" "FB 17 40 F9" "F9 03 00 AA"
-"F5 03 05 AA" "F3 03 04 AA" "F7 03 02 AA" "FC 6F 05 A9" "FA 67 06 A9"
-"F8 5F 07 A9" "F6 57 08 A9" "F4 4F 09 A9" "F4 4F 46 A9" "F6 57 45 A9"
-"F8 5F 44 A9" "FA 67 43 A9" "FC 6F 42 A9" "FF C3 01 91" "F8 07 00 F9"
-"F8 07 40 F9" "F5 03 06 AA" "F3 03 05 AA" "FA 03 16 AA" "F6 07 00 F9"
-"FF C3 01 D1" "FC 6F 02 A9" "FA 67 03 A9" "F8 5F 04 A9" "F6 57 05 A9"
-"F4 4F 06 A9" "F7 06 00 D1" "F9 1B 00 F9" "FD 83 00 91" "15 30 40 79"
-"F5 00 00 B4" "FF 83 1A 91" "F7 23 45 A9" "F6 37 40 F9" "F1 F7 FF 97"
-"FD 00 00 94" "F0 00 00 94" "FF 06 00 B1" "FF 83 1A D1" "F5 03 03 2A"
-"F4 05 00 94" "F7 04 00 94" "FF C3 0C 91" "F1 FD FF 97" "F8 07 00 94"
-"FB 06 00 94" "F4 03 03 2A" "F5 0B 00 F9" "FE 08 00 94" "FA 03 08 AA"
-"FB 03 1F AA" "97 DE FF F0" "F7 22 0C 91" "F4 03 05 AA" "FC 03 04 2A"
-"FF 03 1A D1" "4A A0 40 A9" "F3 03 00 91" "F7 B3 01 F9" "F7 03 11 AA"
-"F0 03 16 AA" "F9 83 09 91" "F8 03 01 AA"
-  ]
-}
+
+A0Akki8?*?>8iqki*(?"=.igAkki .2iqki*&&*9igAkki.3;"92iqkz|}}||szz|gAkki;*??.9%8iqkk|gkiyk zk
+kzkki                                                                            k|gAkkkkkyk
+k{xk{zk
+
+k{zk
+k|gki   k{yk
+}k~|xkkki
+}k~|k   k
+k|gki   k~k
+kkgki                                                                            kigki   k
+ykgAkkkki
+k|gki   k{zk
+k|gki   kzk
+k{zki
+rigki
+k}|k{yk
+k{xkkkkki
+}k~|k{k
+k{~ki
+k|gki   k{}k
+k|gki   k}k
+k~kAkkkki
+~k{xk{{k
+
+kxki
+}k~|kk
+rigAkkkki
+k}|kyk
+}k~|k{zk
+k|gki   k{xk
+k|gki   kxk
+kykki
+}k~|kzkki
+kkgki
+k|gki   k{k
+}k~|k{  k
+k{ykkkkki
+k|gki   k
+kk|ki   k
+kzkki
+}k~|kyk
+rigAkkkki
+k}|~k
+k|gki   kk
+k~zki
+}k~|k~{k
+kk~ki
+rigAkkkki
+k}|kk
+kkgki
+k{ski
+rigki
+k}|k{rk
+k{~ki
+k
+xk~xk{kki
+k{xk{{k
+
+~k|i    k{zk
+xk|ki   k{{k
+~k~Akkkkkzk
+rigki
+k{xk{{k
+
+rk}kik  kxk
+|k}xkyk
+~k~Akkkkk{zk
+}k{xk{yk
+
+|k}xk{yksk}k
+rk}ki   k{xk
+|k{xk{xki
+
+xk~xkyk
+~k~ki   kxk
+|k}xkk
+rk}Akkkkk~k
+rigki   k|xk}k
+|k}xk{k k{k
+rk}ki   k{~k
+rigAkkkkk|xk{}k
+xk~xk{yk
+k{xk{xkyk{{k
+|k{xk{k
+
+sk{xk{~k
+
+~k~kikkkk{xk
+k{zkiikkkk{xk~
+}k~|k{yk
+k{xki
+k|gAkkkkk{k
+~k{xk{kzigkissk{k{{k
+
+k{xk{yki
+
+}k{xk{zky
+xk{xk{{k
+
+igki    k|xk{k
+rigAkkkki
+k{xkzrk
+
+igki
+k}|k            k
+k|gki   yk
+k|gAkkkkk{k     k
+xk~xk{zkzigkiryigki
+|k{xk{{k
+
+sk{xk{{k
+
+k{xkzxk
+
+kk{xkz
+
+k|ki    k       k
+~k~Akkkkk{yk
+}k{xk{zk
+
+xk~xkzk
+~k~ki   kyk
+|k}xkxk
+k|gki{kk}k
+k|gki   k               k
+|k}xk{xk{k{k
+rk{xk{zki
+
+~k{xk{yk
+
+kk~i   k
+xk{xk{yk
+
+k}Akkkki
+k
+rigki
+k}|k{zk
+k{yki
+}k~|k{xk
+k{kki
+k|gAkkkkk{~k
+k|gki   xk
+k|gki   k       sk
+k~|kzk
+~k{xk{zky
+k{kk{ykzigki
+rigki
+k}|k{~k
+k{}ki
+}k~|k{|k
+k{skkkkki
+k|gki   k{rk
+kxkki   k{k
+k|gki   k
+sigAkkkki
+k{xkz
+
+k|ki    k
+k
+xk{xk{xk
+
+|k{xk{~ky
+}k{xk{{kkki
+
+}kki
+xk{{zkrzigki
+k~rkkkkki{k
+}k~|k~sk
+k~|ki
+rigki
+k}|k~}k
+k~~ki
+k|gAkkkkk~k
+kk{xkzzigkiki
+
+krki
+k|gAkkkkksk
+k{{ykzigkigki
+k
+kxk{ykrzigAkkkkiszk{yk{{k       igki{k{xk{zk
+
+xk{xk{zk
+
+k{}k
+rigki
+k}|k{|k
+k{skkkkki
+}k~|k{rk
+kigki
+k
+k|gki   krk
+k|{ykrzikAkkkkik
+k{xk{xk k{{k
+
+k{{k    k{xk{{k |k{~k{{krigAkkkki
+
+}k~|krk
+kskki
+rigki
+k}|k|k
+k}kki
+}k~|k{}kigki
+k{|ki
+k|kki{krzigAkkkki
+|k{xk{zkk{{k    k{{k
+
+}k~|kskkrzigki
+k|kki
+rigki
+k}|k}k
+k~kAkkkki
+k{{ki
+rk{xk{{kkz|k{kigki
+
+~k{xk{~k
+
+xk{xk{k
+
+|k{xk{yk
+
+k{~k
+rigki
+k}|k{}k
+k{|kkkkki
+}k~|k{sk
+k{rki
+k}kki
+}k~|k~k
+kk~Akkkki
+rigki
+k}|kxk
+kykki
+~k{xk{}kiki
+
+xk{xk{~k
+
+igki
+k{xkz}k
+
+k{ykkzigki
+rigki
+k}|k{xk
+k{kki
+}k~|k{~k
+k{}kkkkki
+ksxkz{{kzigkiz~kigkik|rigAkkkki
+|kyxk~k
+ksxkz{kkzigki
+~k{xk{xky
+k{xk{xkyk{}k{{krigki
+k{sk{{krigki
+k{xk{sk
+
+kgAkkkkik{xkz
+
+k{xk{~kzigki
+
+k{xk{ky
+k{xkzkki
+kzigki
+k
+{k{k
+|k{xkzzkxk{zki
+
+{k{xkz}k
+
+sk{xk{zkrzigki
+
+iAkkA6A
