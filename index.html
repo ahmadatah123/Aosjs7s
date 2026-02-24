@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyAuth Pro Panel</title>
+    <style>
+        body { background: #0a0a0a; color: #fff; font-family: 'Segoe UI', sans-serif; text-align: center; padding: 20px; }
+        .container { max-width: 500px; margin: auto; background: #151515; padding: 20px; border-radius: 15px; border: 1px solid #333; }
+        .key-box { font-size: 24px; color: #00ff00; margin: 20px 0; padding: 10px; border: 1px dashed #555; }
+        .btn { width: 100%; padding: 15px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; margin: 5px 0; transition: 0.3s; }
+        .btn-gen { background: #28a745; color: white; }
+        .btn-gen:hover { background: #218838; }
+        .card { background: #202020; padding: 15px; border-radius: 10px; margin-top: 15px; text-align: left; border-left: 5px solid #007bff; }
+        .btn-reset { background: #dc3545; color: white; padding: 5px 10px; width: auto; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Authentication Manager</h2>
+        <button class="btn btn-gen" onclick="generateKey()">GENERATE NEW KEY</button>
+        <div id="newKey" class="key-box">---</div>
+        <div id="keyList"></div>
+    </div>
+
+    <script>
+        async function generateKey() {
+            const res = await fetch('/gen');
+            const key = await res.text();
+            document.getElementById('newKey').innerText = key;
+            loadKeys();
+        }
+
+        async function loadKeys() {
+            const res = await fetch('/list-keys');
+            const keys = await res.json();
+            let html = "";
+            keys.forEach(k => {
+                html += `<div class="card">
+                    <b>Key:</b> ${k.key}<br>
+                    <b>Device:</b> ${k.hwid || 'Not Linked'}<br>
+                    <button class="btn-reset" onclick="resetHwid('${k.key}')">RESET HWID</button>
+                </div>`;
+            });
+            document.getElementById('keyList').innerHTML = html;
+        }
+
+        async function resetHwid(key) {
+            await fetch('/reset', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ key })
+            });
+            loadKeys();
+        }
+        window.onload = loadKeys;
+    </script>
+</body>
+</html>
+

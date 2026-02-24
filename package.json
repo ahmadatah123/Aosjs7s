@@ -1,0 +1,14 @@
+{
+  "name": "my-keyauth-system",
+  "version": "1.0.0",
+  "description": "Professional Key Authentication System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
+
