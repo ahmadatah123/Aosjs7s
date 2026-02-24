@@ -1,8 +1,0 @@
-# HYDRA LICENSE KEYS
-# Format: KEY:DEVICE_ID:STATUS
-# Use * for any device
-
-KEY001:*:active
-KEY002:a1b2c3d4e5:active
-KEY003:*:blocked
-KEY004:f6g7h8i9j0:active
